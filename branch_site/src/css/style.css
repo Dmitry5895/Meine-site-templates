@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../fonts/Raleway-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CookieRegular";
+    src: url("../fonts/Cookie-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Raleway-Semibold";
+    src: url("../fonts/Raleway-Semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "DejavuSansBook";
+    src: url("../fonts/DejaVu\ Sans\ Book.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: auto;
+}
+
+*:hover,
+*:focus,
+*:active {
+    outline: none;
+    box-shadow: none !important;
+    -webkit-appearance: none;
+}
+
+.container {
+    max-width: 100%;
+}

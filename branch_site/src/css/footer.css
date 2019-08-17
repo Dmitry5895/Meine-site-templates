@@ -1,0 +1,54 @@
+.footer_information {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background-color: #d4d8d9;
+    padding: 0px 100px 50px;
+}
+
+.autors {
+    justify-content: center;
+    padding-top: 50px
+}
+
+.information_autor {
+    margin-bottom: 10px;
+}
+
+.padding {
+    width: 800px;
+}
+
+#footer_information_menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.information_autor_1 {
+    font-family: "RalewayBold";
+    font-size: 19px;
+}
+
+.information_autor_2 {
+    font-family: "RalewayRegular";
+    font-size: 19px;
+}
+
+.logo_nav_bar_footer {
+    font-family: "RalewayBold";
+    color: #2a3b40;
+    font-size: 21px;
+}
+
+.nav_bar_footer {
+    display: flex;
+    width: 120px;
+}
+
+.menu_nav_bar_footer {
+    font-family: "RalewayRegular";
+    font-size: 21px;
+    color: #2a3b40;
+}

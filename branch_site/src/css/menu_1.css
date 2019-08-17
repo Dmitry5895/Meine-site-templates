@@ -1,0 +1,136 @@
+.block_menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1250px;
+    background: #2a3b40 url('../img/menu.jpg') no-repeat;
+    background-size: cover;
+}
+
+.section_menu {
+    margin: 85px 180px;
+    width: 1080px;
+    height: 1080px;
+    background-color: #e5dfd9;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding-top: 51px;
+}
+
+.menu_text {
+    margin-bottom: 49.5px;
+}
+
+.logo_name_menu {
+    font-family: "CookieRegular";
+    font-size: 77px;
+    color: #2c3a42;
+    text-align: center;
+}
+
+.description_menu {
+    font-family: "Raleway-Semibold";
+    font-size: 48px;
+    color: #ad6c12;
+    line-height: 1px;
+}
+
+.prices_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.dish_1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    background: rgba(42, 59, 64, 0.5) url('../img/menu/1.png') no-repeat;
+    background-size: cover;
+}
+
+.dish_2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    background: #2a3b40 url('../img/menu/2.png') no-repeat;
+    background-size: cover;
+}
+
+.dish_3 {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    background: #2a3b40 url('../img/menu/3.png') no-repeat;
+    background-size: cover;
+}
+
+.dish_4 {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    background: #2a3b40 url('../img/menu/4.png') no-repeat;
+    background-size: cover;
+}
+
+.dish_5 {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    background: #2a3b40 url('../img/menu/5.png') no-repeat;
+    background-size: cover;
+}
+
+.dish_6 {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    background: #2a3b40 url('../img/menu/6.png') no-repeat;
+    background-size: cover;
+}
+
+.price_1,
+.price_2 {
+    margin-top: 30px;
+    display: block;
+    font-family: "DejavuSansBook";
+    font-weight: 600;
+    padding: 15px;
+    width: 270px;
+    height: 270px;
+}
+
+.advantages_menu {
+    text-transform: uppercase;
+}
+
+.tastes_1 {
+    text-align: center;
+}
+
+.price_3,
+.price_4 {
+    display: block;
+    font-family: "DejavuSansBook";
+    font-weight: 600;
+    padding: 15px;
+    width: 270px;
+    height: 270px;
+}
+
+.price_5,
+.price_6 {
+    display: block;
+    font-family: "DejavuSansBook";
+    font-weight: 600;
+    padding: 15px;
+    width: 270px;
+    height: 270px;
+}

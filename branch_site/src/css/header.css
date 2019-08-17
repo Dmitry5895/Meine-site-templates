@@ -1,0 +1,69 @@
+#header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #2a3b40 url('../img/header-bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.section_header {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.logo_nav_bar:hover,
+.menu_nav_bar:hover {
+    color: #ad6c12;
+}
+
+.logo_nav_bar {
+    font-family: "RalewayBold";
+    color: #d1d4d5;
+    padding-right: 288px;
+}
+
+.menu_nav_bar {
+    font-family: "RalewayBold";
+    color: #d1d4d5;
+    padding: 25px;
+}
+
+.block_description {
+    display: flex;
+    justify-content: center;
+    margin-top: 216px;
+    margin-bottom: 220px;
+}
+
+.block_logo {
+    width: 760px;
+    height: 470px;
+    background-color: #e5dfd9;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding-top: 80px;
+}
+
+.logo_name {
+    font-family: "CookieRegular";
+    font-size: 104px;
+    color: #2c3a42;
+}
+
+.description {
+    font-family: "Raleway-Semibold";
+    font-size: 77px;
+    color: #ad6c12;
+    line-height: 1px;
+}
+
+.btn {
+    margin-top: 25px;
+    width: 270px;
+    height: 58px;
+    border: none;
+    background-color: #fff;
+    font-size: 25px;
+}

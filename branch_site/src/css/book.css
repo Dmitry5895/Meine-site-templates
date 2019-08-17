@@ -1,0 +1,117 @@
+.block_book {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 919px;
+    background: #2a3b40 url('../img/menu_3.jpg') no-repeat;
+    background-size: cover;
+}
+
+#section_book {
+    width: 100%;
+    height: 450px;
+    background-color: #2a3b40;
+    padding: 10px 100px 100px;
+}
+
+.section_book_1 {
+    display: flex;
+    justify-content: center;
+}
+
+.section_book_2,
+.section_book_3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section_book_4 {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_name_book {
+    font-family: "CookieRegular";
+    font-size: 77px;
+    color: #fff;
+    text-align: center;
+}
+
+.form-group {
+    font-family: "DejavuSansBook";
+    color: #fff;
+    padding: 0 110px;
+}
+
+.form-control-file_1,
+.form-control-file_2,
+.form-control-file_3 {
+    display: flex;
+    justify-content: center;
+    width: 235px;
+    height: 30px;
+    font-family: "DejavuSansBook";
+    color: #fff;
+    background-color: #2a3b40;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-control-file_1 {
+    background: #2a3b40 url('../img/icons/human.svg') no-repeat;
+    background-position: right;
+}
+
+.form-control-file_2 {
+    background: #2a3b40 url('../img/icons/calendar.svg') no-repeat;
+    background-position: right;
+}
+
+.form-control-file_3 {
+    background: #2a3b40 url('../img/icons/clock.svg') no-repeat;
+    background-position: right;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form-control-file_4,
+.form-control-file_5,
+.form-control-file_6 {
+    display: flex;
+    justify-content: center;
+    width: 235px;
+    height: 30px;
+    font-family: "DejavuSansBook";
+    color: #fff;
+    background-color: #2a3b40;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn_book {
+    width: 235px;
+    height: 40px;
+    margin-top: 40px;
+    font-family: "DejavuSansBook";
+    font-size: 24px;
+    color: #fff;
+    background-color: #2a3b40;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn_book:hover {
+    background-color: #fff;
+    color: #2a3b40;
+    border: 2px solid #fff;
+    outline: none;
+}
