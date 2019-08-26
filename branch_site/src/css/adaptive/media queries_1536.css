@@ -1,9 +1,8 @@
-@media (max-width: 1536px) {
+@media (min-width: 1537px) {
     /* header */
     body {
         overflow-x: hidden;
     }
-    /* menu_2 */
     .section_features {
         margin-top: 120px;
         width: 1300px;
