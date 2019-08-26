@@ -8,6 +8,11 @@
         color: #d1d4d5;
         padding-right: 10px;
     }
+    .menu_nav_bar {
+        font-family: "RalewayBold";
+        color: #d1d4d5;
+        padding: 20px;
+    }
     /* flavours */
     #block_discription_flavours {
         background-color: #2c3a42;
