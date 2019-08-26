@@ -3,4 +3,13 @@
     body {
         overflow-x: hidden;
     }
+    .section_features {
+        margin-top: 250px;
+        width: 1485px;
+        max-height: 590px;
+        background-color: #e5dfd9;
+        background: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 10px 100px 100px;
+    }
 }
