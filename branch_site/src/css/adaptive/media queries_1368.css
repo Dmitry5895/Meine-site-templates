@@ -1,0 +1,6 @@
+@media (min-width: 1370px) {
+    /* header */
+    body {
+        overflow-x: hidden;
+    }
+}
