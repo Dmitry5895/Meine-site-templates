@@ -4,11 +4,9 @@
         overflow-x: hidden;
     }
     .section_header {
-        font-size: 30px;
+        font-size: 24px;
     }
     .logo_nav_bar {
-        font-family: "RalewayBold";
-        color: #d1d4d5;
         padding-right: 10px;
     }
 }
