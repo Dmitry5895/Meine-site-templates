@@ -9,4 +9,14 @@
     .logo_nav_bar {
         padding-right: 10px;
     }
+    /* flavours */
+    .section_flavours {
+        display: block;
+        font-family: "DejavuSansBook";
+        text-align: -webkit-center;
+    }
+    .text_flavours {
+        max-width: 520px;
+        padding-right: 0;
+    }
 }
