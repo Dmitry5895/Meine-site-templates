@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     /* header */
     body {
         overflow-x: hidden;
@@ -24,6 +24,14 @@
         max-width: 100%;
         max-height: 370px;
         display: flex;
+        justify-content: center;
+        background-color: #d4d7d8;
+        padding: 90px;
+    }
+    .block_advantages {
+        max-width: 100%;
+        max-height: 370px;
+        display: none;
         justify-content: center;
         background-color: #d4d7d8;
         padding: 90px;
