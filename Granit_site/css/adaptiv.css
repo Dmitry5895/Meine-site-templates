@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "GothamPro Medium";
+  src: url("../fonts/GothamPro Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamPro Light";
+  src: url("../fonts/GothamPro Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamPro Bold";
+  src: url("../fonts/GothamPro Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamPro.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu {
+    background-color: #ffcc00;
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+  }
+  .menu-header {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    width: 155px;
+    color: #000;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 14px;
+    font-family: "GothamPro Medium";
+    text-align: center;
+  }
+  .product {
+    width: 100%;
+    height: 400px;
+    padding-top: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 2px solid #f4f4f4;
+    text-align: center;
+  }
+  .foto-product {
+    width: 224px;
+    height: 150px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    text-align: center;
+    margin-left: -8px;
+  }
+  .price {
+    margin-top: 630px;
+  }
+  .price-text {
+    padding: 0;
+  }
+  .price-text-headline {
+    font-size: 19px;
+    color: #292929;
+    text-align: center;
+    margin-left: -25px;
+    text-transform: uppercase;
+    font-family: "GothamPro Bold";
+  }
+  .advantages {
+    width: 100%;
+    height: 485px;
+    margin-top: 80px;
+    background-color: #f4f4f4;
+  }
+  .advantages-text {
+    padding: 0;
+    margin-top: 80px;
+  }
+  .advantages-text-headline {
+    margin-left: -40px;
+    font-size: 19px;
+    color: #292929;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "GothamPro Bold";
+  }
+  .advantages-text-headline-services {
+    margin-left: 5px;
+    font-size: 19px;
+    color: #292929;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "GothamPro Bold";
+  }
+  .privilege {
+    width: 100%;
+    height: 250px;
+    padding-top: 30px;
+    margin-top: 60px;
+    margin-left: 60px;
+    border: 2px solid #ffffff;
+    text-align: center;
+  }
+  .foto {
+    width: 150px;
+    height: 140px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .description-btn {
+    padding: 0;
+    margin-top: 65px;
+  }
+  .description-btn-call {
+    width: 100%;
+    height: 35px;
+    font-family: "GothamPro Medium";
+    font-size: 12px;
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+  }
+  .description-btn-call-price {
+    width: 150px;
+    height: 35px;
+    font-family: "GothamPro Medium";
+    font-size: 12px;
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+  }
+  .popular {
+    width: 100%;
+    height: 520px;
+  }
+  .popular-goods {
+    width: 100%;
+    height: 315px;
+    margin-top: 60px;
+    margin-left: 65px;
+    padding: 8px 0px;
+    border: 2px solid #f4f4f4;
+    text-align: center;
+  }
+  .popular-goods-name {
+    color: #292929;
+    font-size: 10px;
+    font-family: "GothamPro";
+  }
+}
+/*# sourceMappingURL=adaptiv.css.map */
