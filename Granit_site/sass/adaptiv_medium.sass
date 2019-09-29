@@ -21,3 +21,59 @@ body
     margin: 0
     padding: 0
     overflow-x: hidden
+
+@media screen and ( max-width: 992px  )
+    .bg
+        position: absolute
+        margin-top: 145px
+        width: 105%
+        height: 550px
+        background: $gray-bg url('../img/bg.jpg') no-repeat
+        background-size: cover
+    .menu 
+        background-color: $yellow
+        margin-top: 30px
+        width: 100%
+        height: 60px
+        padding: 0
+        &-header
+            display: inline-block
+            text-decoration: none
+            color: $black
+            width: 115px
+            color: $black
+            margin-top: 10px
+            padding: 0
+            font-size: $font-btn
+            font-family: "GothamPro Medium"
+            text-align: center
+    .logo-description
+        font-size: $font-stock
+        font-family: "GothamPro Light"
+        color: $gray
+        line-height: 0.2
+    .section-tel-description
+        width: 100%
+        margin-top: 10px
+        padding-left: 5px
+        text-align: center
+    .product   
+        width: 100%
+        height: 400px
+        padding-top: 30px
+        margin-top: 60px
+        margin-left: 40px
+        justify-content: center
+        border: 2px solid  $light-gray
+        text-align: center
+    .price
+        margin-top: 630px 
+        &-text
+            padding: 0
+            &-headline
+                font-size: $font-headline
+                color: $dark
+                text-align: center          
+                text-transform: uppercase
+                margin-left: -40px
+                font-family: "GothamPro Bold"
