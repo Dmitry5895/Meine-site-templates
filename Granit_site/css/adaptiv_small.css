@@ -82,5 +82,8 @@ body {
     text-transform: uppercase;
     font-size: 30px;
   }
+  .price {
+    margin-top: 580px;
+  }
 }
 /*# sourceMappingURL=adaptiv_small.css.map */
