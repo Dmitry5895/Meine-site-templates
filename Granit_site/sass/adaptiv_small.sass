@@ -1,0 +1,70 @@
+@import "fonts"
+    
+$light: #ffffff
+$dark: #292929
+$gray: #6c6c6c
+$yellow: #ffcc00
+$light-gray: #f4f4f4
+$red: #ff0000
+$black: #000
+$gray-bg: #303030
+$text-description: #c1c1c1
+
+
+$font-stock: 10px
+$font-btn-head: 12px
+$font-btn: 14px
+$font-price: 16px
+$font-headline: 19px
+$font-logo: 9px
+    
+body 
+    margin: 0
+    padding: 0
+    overflow-x: hidden
+
+@media screen and ( max-width: 768px )
+    .logo-text
+        font-size: $font-price
+        text-decoration: none
+        font-family: "GothamPro Bold"
+        color: $black
+    .logo-description
+        font-size: $font-logo
+        font-family: "GothamPro Light"
+        color: $gray
+        line-height: 0.2
+    .menu 
+        background-color: $yellow
+        margin-top: 30px
+        width: 100%
+        height: 95px
+        padding: 0
+        &-header
+            display: inline-block
+            text-decoration: none
+            color: $black
+            width: 250px
+            color: $black
+            margin-top: 10px
+            padding: 0
+            font-size: $font-btn
+            font-family: "GothamPro Medium"
+            text-align: center
+    .bg
+        position: absolute
+        margin-top: 155px
+        width: 125%
+        height: 500px
+        background: $gray-bg url('../img/bg.jpg') no-repeat
+        background-size: cover
+    .description
+        padding: 0
+        margin-top: 80px
+        &-text_delivery
+            color: $light
+            font-family: "GothamPro Bold"
+            text-transform: uppercase
+            font-size: 30px
+    
+    
