@@ -82,5 +82,39 @@ body {
     text-transform: uppercase;
     font-size: 30px;
   }
+  .price {
+    margin-top: 580px;
+  }
+  .advantages {
+    width: 100%;
+    height: 1100px;
+    margin-top: 80px;
+    background-color: #f4f4f4;
+  }
+  .popular {
+    width: 100%;
+    height: 1600px;
+  }
+  .popular-goods {
+    width: 100%;
+    height: 315px;
+    margin-top: 60px;
+    margin-left: 50px;
+    padding: 5px 0px;
+    border: 2px solid #f4f4f4;
+    text-align: center;
+  }
+  .foto {
+    width: 210px;
+    height: 150px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .services {
+    width: 100%;
+    height: 1100px;
+    margin-top: 80px;
+    background-color: #f4f4f4;
+  }
 }
 /*# sourceMappingURL=adaptiv_small.css.map */
