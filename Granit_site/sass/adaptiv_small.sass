@@ -17,6 +17,10 @@ $font-btn: 14px
 $font-price: 16px
 $font-headline: 19px
 $font-logo: 9px
+
+* 
+    box-sizing: border-box 
+
     
 body 
     margin: 0
@@ -36,15 +40,15 @@ body
         line-height: 0.2
     .menu 
         background-color: $yellow
-        margin-top: 30px
+        margin-top: 40px
         width: 100%
-        height: 95px
+        height: 70px
         padding: 0
         &-header
             display: inline-block
             text-decoration: none
             color: $black
-            width: 250px
+            width: 115px
             color: $black
             margin-top: 10px
             padding: 0
@@ -68,14 +72,30 @@ body
             font-size: 30px
     .price
         margin-top: 580px
+        &-text
+            padding: 0
+            &-headline
+                font-size: $font-headline
+                color: $dark
+                text-align: center          
+                text-transform: uppercase
+                font-family: "GothamPro Bold"
     .advantages
         width: 100%
-        height: 1100px 
+        height: 800px 
         margin-top: 80px
         background-color: $light-gray
+        &-text
+            padding: 0
+            &-headline
+                font-size: $font-headline
+                color: $dark
+                text-align: center          
+                text-transform: uppercase
+                font-family: "GothamPro Bold"
     .popular
         width: 100%
-        height: 1600px
+        height: 850px
         &-goods
             width: 100%
             height: 315px
@@ -85,12 +105,12 @@ body
             border: 2px solid $light-gray
             text-align: center
     .foto
-        width: 210px
+        width: 220px
         height: 150px
         object-fit: cover
     .services
         width: 100%
-        height: 1100px 
+        height: 800px 
         margin-top: 80px
         background-color: $light-gray
     
