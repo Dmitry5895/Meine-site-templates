@@ -127,5 +127,17 @@ body {
     text-transform: uppercase;
     font-family: "GothamPro Bold";
   }
+  .product {
+    width: 50%;
+    height: 400px;
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 2px solid #f4f4f4;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=adaptiv_extrasmall.css.map */
