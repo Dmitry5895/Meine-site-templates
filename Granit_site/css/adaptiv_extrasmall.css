@@ -168,13 +168,23 @@ body {
     height: 520px;
   }
   .popular-goods {
-    width: 40%;
+    width: 60%;
     height: 315px;
     margin-top: 60px;
     margin-right: 8%;
     padding: 8px 0px;
     border: 2px solid #f4f4f4;
     text-align: center;
+  }
+  .stock {
+    width: 40px;
+    height: 15px;
+    background-color: #ff0000;
+    color: #ffffff;
+    position: absolute;
+    margin: 5px 65px;
+    font-size: 10px;
+    font-family: "GothamPro Medium";
   }
 }
 /*# sourceMappingURL=adaptiv_extrasmall.css.map */
