@@ -91,7 +91,7 @@ body {
     text-align: center;
   }
   .description-btn-call {
-    width: 50%;
+    width: 60%;
     height: 35px;
     font-family: "GothamPro Medium";
     font-size: 12px;
@@ -114,7 +114,18 @@ body {
     font-family: "GothamPro Medium";
   }
   .price {
-    margin-top: 800px;
+    margin-top: 830px;
+  }
+  .price-text {
+    padding: 0;
+    text-align: center;
+    margin-left: 8%;
+  }
+  .price-text-headline {
+    font-size: 19px;
+    color: #292929;
+    text-transform: uppercase;
+    font-family: "GothamPro Bold";
   }
 }
 /*# sourceMappingURL=adaptiv_extrasmall.css.map */
