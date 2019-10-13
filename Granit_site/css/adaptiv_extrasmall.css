@@ -168,10 +168,10 @@ body {
     height: 1570px;
   }
   .popular-goods {
-    width: 70%;
+    width: 80%;
     height: 315px;
     margin-top: 60px;
-    margin-right: 10%;
+    margin-right: 12%;
     padding: 8px 0px;
     border: 2px solid #f4f4f4;
     text-align: center;
@@ -182,7 +182,7 @@ body {
     background-color: #ff0000;
     color: #ffffff;
     position: absolute;
-    margin: 5px 25%;
+    margin: 5px 6%;
     font-size: 10px;
     font-family: "GothamPro Medium";
   }
