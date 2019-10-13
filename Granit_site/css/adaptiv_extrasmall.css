@@ -185,5 +185,19 @@ body {
     font-size: 10px;
     font-family: "GothamPro Medium";
   }
+  .section-footer {
+    width: 100%;
+    height: 350px;
+    background-color: #292929;
+  }
+  .logo-autor {
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 90px;
+    padding: 0;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "GothamPro";
+  }
 }
 /*# sourceMappingURL=adaptiv_extrasmall.css.map */
