@@ -29,7 +29,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 577px) {
@@ -192,7 +192,7 @@ body {
   }
   .logo-autor {
     position: absolute;
-    margin-left: 42%;
+    text-align: center;
     margin-top: 90px;
     padding: 0;
     color: #ffffff;
