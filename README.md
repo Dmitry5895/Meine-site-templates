@@ -5,4 +5,4 @@ site-templates
 
 2- Landing Page(adaptive) - [Компания "Гранит"](https://dmitry5895.github.io/Site-templates/Granit_site/)
 
-3- Landing Page(adaptive) - [Go-surf](https://dmitry5895.github.io/Site-templates/go-surf/app/)
+3- Landing Page(adaptive) - [Go-surf](https://dmitry5895.github.io/Site-templates/Go-surf/app/)
