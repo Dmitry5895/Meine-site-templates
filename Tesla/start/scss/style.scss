@@ -411,6 +411,15 @@ body {
     .design-row__item-text {
         font-size: 20px;
     }
+    .header-content__title {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 450px) {
+    .header-content__title {
+        font-size: 75px;
+    }
 }
 
 @media (max-width: 410px) {
