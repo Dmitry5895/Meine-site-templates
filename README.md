@@ -11,3 +11,5 @@ site-templates
 
 # Lesson JS
 
+1- Покупка авиабилетов - [Aviasales](https://dmitry5895.github.io/Site-templates/Aviasales/)
+
