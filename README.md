@@ -12,4 +12,5 @@ site-templates
 # Lesson JS
 
 1- Покупка авиабилетов - [Aviasales](https://dmitry5895.github.io/Site-templates/Aviasales/)
-1- Калькулятор расходов - [Calculator](https://dmitry5895.github.io/Site-templates/Colculator/MoneyCalc/)
+
+2- Калькулятор расходов - [Calculator](https://dmitry5895.github.io/Site-templates/Colculator/MoneyCalc/)
