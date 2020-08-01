@@ -17,4 +17,4 @@ site-templates
 
 # Market's
 
-1 - Магазин гидроциклов и снаряжения - [Gidrotsikly](https://github.com/Dmitry5895/Site-templates/tree/master/gidrotsikly_site)
+1 - Магазин гидроциклов и снаряжения - [Gidrotsikly](https://github.com/Dmitry5895/Site-templates/tree/master/gidrotsikly_site/)
