@@ -1,0 +1,270 @@
+@media (max-width: 1300px) {
+    .container {
+        margin: 0 30px;
+    }
+
+    .form_block_item {
+        padding: 137px 35px;
+    }
+    .form_title_item {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1140px) {
+    .form_block_information_image {
+        width: 50%;
+    }
+
+    .form_block_item {
+        padding: 137px 35px;
+    }
+
+    .form_title_item {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media (max-width: 1024px) {
+    .menu_logo {
+        padding-right: 70px;
+    }
+
+    .banner_phone_item {
+        max-width: 100%;
+    }
+
+    .information_image {
+        padding: 0;
+    }
+
+    .product_card {
+        flex-wrap: wrap;
+    }
+
+    .product_card_item {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .form_title_item {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .form_block_item p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 870px) {
+
+    .form {
+        background-color: #574B63;
+    }
+    .menu_btn {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        order: 1;
+        z-index: 50;
+    }
+
+    .menu_logo, .menu_phone {
+        z-index: 60;
+    }
+
+    .btn_line {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        height: 2px;
+        transition: .6s ease;
+    }
+
+    .btn_line:nth-child(1) {
+        top: 0px;
+    }
+    .btn_line:nth-child(2) {
+        top: 15px;
+    }
+    .btn_line:nth-child(3) {
+        top: 15px;
+    }
+    .btn_line:nth-child(4) {
+        top: 30px;
+    }
+
+    .menu-open .btn_line:nth-child(1) {
+        transform: scaleX(0);
+    }
+    .menu-open .btn_line:nth-child(2) {
+        transform: rotate(45deg);
+    }
+    .menu-open .btn_line:nth-child(3) {
+        transform: rotate(-45deg);
+    }
+    .menu-open .btn_line:nth-child(4) {
+        transform: scaleX(0);
+    }
+    .menu {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #0A0A0A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(-100%);
+        transition: 0.6s ease;
+    }
+
+    .menu-open .menu {
+        transform: translateY(0);
+    }
+
+    .menu_item {
+        padding: 30px 0;
+    }
+
+    .menu_logo_btn, .menu_phone {
+        z-index: 50;
+    }
+
+    .menu_link {
+        font-size: 32px;
+    }
+    
+
+    .menu_logo {
+        padding-right: 0px;
+    }
+
+    .information_block {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .information_text {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .form_block {
+        display: block;
+        text-align: center;
+    }
+
+    .form_title_item {
+        text-align: center;
+    }
+
+    .form_block_item {
+        width: auto;
+    }
+
+    .form_block_information_image {
+        width: 100%;
+    }
+
+@media (max-width: 550px) {
+    .banner_title_item {
+        font-size: 40px;
+    }
+
+    .product_card_item {
+        width: 100%;
+    }
+
+    .product_card_item img{
+        width: 100%;
+    }
+
+    .form_title_item {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .footer_nav {
+        flex-direction: column;
+    }
+
+    .footer_link,
+    .footer_logo,
+    .footer_phone {
+        padding-bottom: 20px;
+    }
+
+    .footer_phone:last-child {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    svg{
+        width: 35px;
+        height: 37px;
+    }
+    .menu_phone {
+        font-size: 20px;
+    }
+
+    .menu_btn {
+        width: 40px;
+        height: 40px;
+    }
+
+    .banner_title_item {
+        font-size: 30px;
+    }
+
+    .information_title_item {
+        font-size: 25px;
+    }
+
+    .products_title_item {
+        font-size: 25px;
+    }
+    .form_block_item {
+        padding: 50px 0px;
+    }
+
+    .form_title_item {
+        font-size: 20px;
+        margin: 0 0 25px
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        margin: 0 15px;
+    }
+    .menu_btn {
+        width: 35px;
+        height: 35px;
+    }
+    svg{
+        width: 35px;
+        height: 37px;
+    }
+    .menu_phone {
+        font-size: 20px;
+    }
+
+    .form_block_item {
+        padding: 50px 0px;
+    }
+
+    .form_title_item {
+        font-size: 20px;
+        margin: 0 0 25px;
+    }
+}

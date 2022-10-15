@@ -1,0 +1,294 @@
+body {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter",sans-serif;
+    color: #717171;
+}
+
+header, footer {
+    background-color: #0A0A0A;
+    padding: 33px 0 32px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px auto;
+}
+
+.nav, .footer_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_item {
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+.menu_link,
+.menu_phone,
+.footer_phone {
+    text-decoration: none;
+    color: #717171;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.menu_link:hover,
+.menu_phone:hover,
+.footer_link:hover,
+.footer_phone:hover {
+    color: #490e84;
+    transition: color 0.6s
+}
+
+.menu_logo,
+.footer_logo {
+    fill: #717171;
+    transition: fill 0.6s;
+}
+
+.menu_logo {
+    padding-right: 100px;
+}
+
+.menu_logo:hover,
+.footer_logo:hover {
+    fill: #490e84;
+}
+
+.banner {
+    background-color: #F5F5F7;
+}
+
+.banner_title {
+    display: flex;
+    justify-content: center;
+    padding: 71px 0 40px;   
+}
+
+.banner_title_item {
+    color: #490e84;
+    text-shadow: 1px 1px 1px #0A0A0A;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.banner_phone {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 40px;
+}
+
+.button_banner {
+    width: 350px;
+    height: 70px;
+    background-color: #490e84;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button_banner:hover {
+    background-color: #fff;
+    color: #490e84;
+    border: 2px solid #490e84;
+    transition: color 0.3s;
+}
+
+.information {
+    margin-top: 87px;
+}
+
+.information_title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.information_title_item {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.information_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information_text {
+    width: 560px;
+    height: auto;
+}
+
+.information_text_item_1,
+.information_text_item_2,
+.information_text_item_3 {
+    padding-bottom: 30px;
+}
+
+.information_text_item_4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0A0A0A;
+}
+
+.information_image {
+    padding-right: 100px;
+}
+
+.product {
+    margin-top: 150px;
+}
+
+.product_title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.product_card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_card_item {
+    text-align: center;
+}
+
+.product_card_title_en:hover,
+.product_card_title_ru:hover {
+    color: #490e84;
+    transition: color 0.6s;
+}
+
+.product_card_title_en{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0A0A0A;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.product_card_title_ru {
+    padding-top: 10px;
+    color: #0A0A0A;
+}
+
+.form {
+    margin-top: 150px;
+}
+
+.form_block {
+    display: flex;
+    background-color: #574B63;
+    color: #fff;
+}
+
+.form_block_item {
+    width: 100%;
+    padding: 137px 90px;
+    text-align: center;
+}
+
+.form_title_item {
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+}
+
+.form_information_item {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #574B63;
+}
+
+.form_information_item::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.form_block_item p {
+    text-align: center;
+    margin-top: 30px;
+    opacity: 0.5;
+}
+
+.form_information_btn button {
+    align-items: center;
+}
+
+.form_information_btn {
+    justify-content: center;
+    margin-top: 30px;
+    width: 240px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #490e84;
+    border: none;
+    cursor: pointer;
+}
+
+.form_information_btn:hover {
+    background-color: #490e84;
+    color: #fff;
+    transition: color 0.6s;
+}
+
+footer {
+    background-color: #0A0A0A;
+    padding: 50px 0 50px;
+}
+
+.footer_link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    text-decoration: none;
+    color: #717171;
+}
+
+.footer_logo {
+    padding: 0;
+}
+
+.menu_btn {
+    display: none;
+}
+
+
