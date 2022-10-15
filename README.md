@@ -9,6 +9,8 @@ site-templates
 
 4- Landing Page(adaptive) - [Tesla](https://dmitry5895.github.io/Site-templates/Tesla/start/)
 
+5-Landing Page(adaptive) - [Iphone14]()
+
 # Lesson JS
 
 1- Покупка авиабилетов - [Aviasales](https://dmitry5895.github.io/Site-templates/Aviasales/)
