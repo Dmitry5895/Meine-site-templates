@@ -9,7 +9,7 @@ site-templates
 
 4- Landing Page(adaptive) - [Tesla](https://dmitry5895.github.io/Site-templates/Tesla/start/)
 
-5-Landing Page(adaptive) - [Iphone14]()
+5-Landing Page(adaptive) - [Iphone14](https://dmitry5895.github.io/Site-templates/iphone_14/)
 
 # Lesson JS
 
